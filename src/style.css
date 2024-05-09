@@ -155,6 +155,63 @@ body {
     width: 40.5vw;
 }
 
+.hobbyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hobbyDivImg {
+    display: flex;
+    justify-content: center;
+    background-color: var(--imageBg);
+    border-radius: 30px;
+    margin-top: 5vh;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+.hobbyImg {
+    width: 35vw;
+    height: auto;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.hobbyContent {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.hobbyDivTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5vh;
+    margin-right: 6vw;
+
+    background-color: var(--imageBg);
+    border-radius: 30px;
+}
+
+.hobbyTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hobbyDivText{
+    display: flex;
+
+    margin-top: 5vh;
+    margin-right: 5vw;
+    border-radius: 30px;
+}
+
+.hobbyText{
+    word-wrap: break-word;
+    width: 40.5vw;
+}
+
 
 .footer {
     display: flex;
