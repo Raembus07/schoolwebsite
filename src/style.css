@@ -142,7 +142,7 @@ body {
     font-weight: bold;
 }
 
-.aboutDivText{
+.aboutDivText {
     display: flex;
 
     margin-top: 5vh;
@@ -150,7 +150,7 @@ body {
     border-radius: 30px;
 }
 
-.aboutText{
+.aboutText {
     word-wrap: break-word;
     width: 40.5vw;
 }
@@ -198,7 +198,7 @@ body {
     font-weight: bold;
 }
 
-.hobbyDivText{
+.hobbyDivText {
     display: flex;
 
     margin-top: 5vh;
@@ -206,11 +206,42 @@ body {
     border-radius: 30px;
 }
 
-.hobbyText{
+.hobbyText {
     word-wrap: break-word;
     width: 40.5vw;
 }
 
+.workContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.workElement {
+    margin-right: 5vw;
+    margin-left: 6vw;
+}
+
+.imgButtonContainer {
+    position: relative;
+}
+
+.learnMoreButton {
+    position: absolute;
+    top: 82%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.workImg {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.workText {
+    word-wrap: break-word;
+    width: 20vw;
+}
 
 .footer {
     display: flex;
