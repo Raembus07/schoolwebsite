@@ -292,6 +292,11 @@ body {
     text-align: center;
 }
 
+.submit{
+    height: 50px;
+    width: 150px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
