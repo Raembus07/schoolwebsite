@@ -253,6 +253,35 @@ body {
     width: 20vw;
 }
 
+.contactTitleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15vh;
+
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 90px;
+    margin-left: 90px;
+
+    background-color: var(--imageBg);
+    color: black;
+}
+
+.contactTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contactTextContainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
 .contactFormular {
     display: flex;
     flex-direction: column;
