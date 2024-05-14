@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--imageBg);
-    border-radius: 30px;
+    border-radius: 2.5vw;
     margin-right: 2.5vw;
     margin-left: 2.5vw;
 }
@@ -86,13 +86,14 @@ body {
 
 .img1,
 .img2 {
-    width: 35vw;
-    margin: 50px;
+    width: 35.5vw;
+    height: auto;
+    margin: 3vw;
     border-radius: 10px;
 }
 
 .img3 {
-    width: 82.2vw;
+    width: 82vw;
     height: auto;
     margin: 3vw;
     border-radius: 10px;
@@ -146,13 +147,13 @@ body {
     display: flex;
 
     margin-top: 5vh;
-    margin-right: 5vw;
+    margin-right: 2vw;
     border-radius: 30px;
 }
 
 .aboutText {
     word-wrap: break-word;
-    width: 40.5vw;
+    width: 40.5vw; /*thats the problem why text width to big*/
 }
 
 .hobbyContainer {
@@ -263,8 +264,8 @@ body {
     border-radius: 15px;
     margin-top: 60px;
     margin-bottom: 40px;
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 6vw;
+    margin-left: 6vw;
 
     background-color: var(--imageBg);
     color: black;
@@ -289,7 +290,7 @@ body {
 
     border-radius: 15px;
     margin-top: 5vh;
-    margin-right: 6vh;
+    margin-right: 6vw;
     margin-left: 6vw;
 
     background-color: var(--imageBg);
@@ -334,10 +335,10 @@ body {
     height: 15vh;
 
     border-radius: 15px;
-    margin-top: 60px;
+    margin-top: 4vh;
     margin-bottom: 40px;
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 6vw;
+    margin-left: 6vw;
 
     background-color: var(--headerElement);
     color: white;
