@@ -18,6 +18,7 @@ body {
 
 .header {
     display: grid;
+    width: 100vw;
     background-color: var(--headerElement);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
 }
@@ -55,11 +56,15 @@ body {
     text-decoration: none;
 }
 
+.mostLeftItem{
+    margin-left: 25px;
+}
+
 .imgContainer {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .imgContainer2 {
@@ -345,5 +350,5 @@ body {
 }
 
 .footerTitel {
-    font-size: 30px;
+    font-size: 5vw;
 }
