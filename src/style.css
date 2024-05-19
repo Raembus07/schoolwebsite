@@ -56,7 +56,7 @@ body {
     text-decoration: none;
 }
 
-.mostLeftItem{
+.mostLeftItem {
     margin-left: 25px;
 }
 
@@ -158,7 +158,8 @@ body {
 
 .aboutText {
     word-wrap: break-word;
-    width: 40.5vw; /*thats the problem why text width to big*/
+    width: 40.5vw;
+    /*thats the problem why text width to big*/
 }
 
 .hobbyContainer {
@@ -259,7 +260,7 @@ body {
     width: 20vw;
 }
 
-.contactTitleContainer{
+.contactTitleContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,12 +277,12 @@ body {
     color: black;
 }
 
-.contactTitle{
+.contactTitle {
     font-size: 40px;
     font-weight: bold;
 }
 
-.contactTextContainer{
+.contactTextContainer {
     display: flex;
     justify-content: center;
     margin-left: 6vw;
@@ -327,7 +328,7 @@ body {
     text-align: center;
 }
 
-.submit{
+.submit {
     height: 50px;
     width: 150px;
 }
@@ -351,4 +352,42 @@ body {
 
 .footerTitel {
     font-size: 5vw;
+}
+
+@media (max-width: 1000px) {
+    .imgContainer {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .divImg1 {
+        display: flex;
+        justify-content: center;
+        background-color: var(--imageBg);
+        border-radius: 2.5vw;
+        margin-bottom: 5vw;
+        margin-right: 2.5vw;
+        margin-left: 2.5vw;
+    }
+
+    .divImg2,
+    .divImg3 {
+        display: flex;
+        justify-content: center;
+        background-color: var(--imageBg);
+        border-radius: 2.5vw;
+        margin-right: 2.5vw;
+        margin-left: 2.5vw;
+    }
+
+    .img1, .img2{
+        width: 80vw;
+        height: auto;
+        margin: 3vw;
+        border-radius: 10px;
+    }
 }
