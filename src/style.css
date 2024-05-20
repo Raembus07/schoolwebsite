@@ -159,7 +159,6 @@ body {
 .aboutText {
     word-wrap: break-word;
     width: 40.5vw;
-    /*thats the problem why text width to big*/
 }
 
 .hobbyContainer {
@@ -351,10 +350,48 @@ body {
 }
 
 .footerTitel {
-    font-size: 5vh;
+    font-size: 3vw;
 }
 
 @media (max-width: 1000px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 10px;
+        width: 75px;
+        height: 40px;
+
+        color: var(--headerFg);
+        font-size: 2vw;
+        background-color: var(--headerElement);
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .headerCurrentItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 75px;
+        height: 20px;
+
+        color: var(--headerFg);
+        font-size: 2vw;
+        background-color: var(--headerMomentanElement);
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
     .imgContainer {
         display: grid;
         width: 100%;
@@ -384,10 +421,61 @@ body {
         margin-left: 2.5vw;
     }
 
-    .img1, .img2{
+    .img1,
+    .img2 {
         width: 80vw;
         height: auto;
         margin: 3vw;
         border-radius: 10px;
+    }
+
+    .aboutContainer {
+        display: grid;
+        grid-template-rows: 2fr 3fr;
+    }
+
+    .aboutImg {
+        width: 80vw;
+        height: 120vw;
+        margin: 4vw;
+    }
+
+    .aboutDivImg {
+        display: flex;
+        justify-content: center;
+        background-color: var(--imageBg);
+        border-radius: 30px;
+        margin-top: 5vh;
+        margin-right: 6vw;
+        margin-left: 6vw;
+    }
+
+    .aboutContent {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+    }
+
+    .aboutDivTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 5vh;
+        margin-right: 6vw;
+
+        background-color: var(--imageBg);
+        border-radius: 30px;
+    }
+
+    .aboutTitle {
+        font-size: 4vw;
+    }
+
+    .aboutDivText {
+        display: flex;
+
+        margin-top: 5vh;
+        margin-right: 2vw;
+        border-radius: 30px;
     }
 }
