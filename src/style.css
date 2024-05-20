@@ -63,7 +63,7 @@ body {
 .imgContainer {
     display: flex;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 2.5vw;
     margin-bottom: 5vw;
 }
 
@@ -267,8 +267,8 @@ body {
     height: 15vh;
 
     border-radius: 15px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
     margin-right: 6vw;
     margin-left: 6vw;
 
@@ -430,14 +430,9 @@ body {
     }
 
     .aboutContainer {
-        display: grid;
-        grid-template-rows: 2fr 3fr;
-    }
-
-    .aboutImg {
-        width: 80vw;
-        height: 120vw;
-        margin: 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .aboutDivImg {
@@ -445,37 +440,34 @@ body {
         justify-content: center;
         background-color: var(--imageBg);
         border-radius: 30px;
-        margin-top: 5vh;
+        margin-top: 3vh;
         margin-right: 6vw;
         margin-left: 6vw;
     }
 
-    .aboutContent {
-        display: grid;
-        grid-template-rows: 1fr 3fr;
+    .aboutImg {
+        width: 80vw;
+        margin: 5vw;
+        border-radius: 10px;
     }
 
     .aboutDivTitle {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
 
-        margin-top: 5vh;
-        margin-right: 6vw;
-
-        background-color: var(--imageBg);
+        margin: 5vw;
         border-radius: 30px;
     }
+
 
     .aboutTitle {
         font-size: 4vw;
+        font-weight: bold;
+        width: 80vw;
     }
 
-    .aboutDivText {
-        display: flex;
-
-        margin-top: 5vh;
-        margin-right: 2vw;
-        border-radius: 30px;
+    .aboutText {
+        font-size: 3vw;
     }
 }
