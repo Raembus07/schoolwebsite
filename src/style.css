@@ -438,7 +438,7 @@ body {
     .aboutDivImg {
         display: flex;
         justify-content: center;
-    
+
         margin-top: 3vh;
         margin-right: 6vw;
         margin-left: 6vw;
@@ -493,5 +493,80 @@ body {
         word-wrap: break-word;
         width: 88vw;
         font-size: 3vw;
+    }
+
+    .hobbyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hobbyDivImg {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 3vh;
+        margin-right: 6vw;
+        margin-left: 6vw;
+        border-radius: 30px;
+
+        width: 88vw;
+        background-color: var(--imageBg);
+    }
+
+    .hobbyImg {
+        width: 82vw;
+        height: auto;
+        margin: 3vw;
+        border-radius: 10px;
+    }
+
+    .hobbyContent {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+    }
+    
+    .hobbyDivTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 6vw;
+        margin-left: 6vw;
+        border-radius: 30px;
+
+        width: 88vw;
+        height: 15vh;
+    }
+    
+    .hobbyTitle {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    
+    .hobbyDivText {
+        display: grid;
+
+        margin-right: 6vw;
+        margin-left: 6vw;
+        border-radius: 30px;
+
+        width: 88vw;
+    }
+    
+    .hobbyText {
+        word-wrap: break-word;
+        width: 88vw;
+        font-size: 3vw;
+    }
+
+    .workContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workElement{
+        
     }
 }
