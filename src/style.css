@@ -228,7 +228,7 @@ body {
 
     margin-top: 10vh;
     margin-bottom: 10vh;
-}
+} 
 
 .imgButtonContainer {
     position: relative;
@@ -241,7 +241,7 @@ body {
     transform: translate(-50%, -50%);
     z-index: 1;
 
-    width: 7vw;
+    width: 10vw;
     height: 3vh;
 
     border-radius: 2.5px;
@@ -316,14 +316,14 @@ body {
 
 .nameFormular,
 .emailFormular {
-    height: 50px;
-    width: 450px;
+    height: 5vw;
+    width: 45vw;
     text-align: center;
 }
 
 .messageFormular {
-    height: 150px;
-    width: 450px;
+    height: 15vw;
+    width: 45vw;
     text-align: center;
 }
 
@@ -525,7 +525,7 @@ body {
         display: grid;
         grid-template-rows: 1fr 3fr;
     }
-    
+
     .hobbyDivTitle {
         display: flex;
         flex-direction: column;
@@ -539,12 +539,12 @@ body {
         width: 88vw;
         height: 15vh;
     }
-    
+
     .hobbyTitle {
         font-size: 4vw;
         font-weight: bold;
     }
-    
+
     .hobbyDivText {
         display: grid;
 
@@ -554,19 +554,65 @@ body {
 
         width: 88vw;
     }
-    
+
     .hobbyText {
         word-wrap: break-word;
         width: 88vw;
         font-size: 3vw;
     }
 
-    .workContainer{
+    .workContainer {
         display: flex;
         flex-direction: column;
     }
 
-    .workElement{
-        
+    .workElement {
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+        margin-right: 6vw;
+        margin-left: 6vw;
+    }
+
+    .imgButtonContainer {
+        position: relative;
+    }
+
+    .learnMoreButton {
+        position: absolute;
+        top: 82%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+
+        width: 30vw;
+        height: 3vh;
+
+        border-radius: 2.5px;
+        color: white;
+        background-color: var(--headerElement);
+    }
+
+    .workImg {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .workText {
+        word-wrap: break-word;
+        width: 100%;
+    }
+
+    .nameFormular,
+    .emailFormular {
+        height: 5vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .messageFormular {
+        height: 15vw;
+        width: 80vw;
+        text-align: center;
     }
 }
