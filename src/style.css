@@ -264,7 +264,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 15vh;
+    height: 15vw;
 
     border-radius: 15px;
     margin-top: 2.5vw;
@@ -277,7 +277,7 @@ body {
 }
 
 .contactTitle {
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
