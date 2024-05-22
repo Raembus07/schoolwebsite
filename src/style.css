@@ -601,6 +601,11 @@ body {
     .workText {
         word-wrap: break-word;
         width: 100%;
+        font-size: 3vw;
+    }
+
+    .contactText{
+        font-size: 3vw;
     }
 
     .nameFormular,
