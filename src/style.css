@@ -157,7 +157,6 @@ body {
 }
 
 .aboutText {
-    word-wrap: break-word;
     width: 40.5vw;
 }
 
@@ -490,7 +489,6 @@ body {
     }
 
     .aboutText {
-        word-wrap: break-word;
         width: 88vw;
         font-size: 3vw;
     }
