@@ -16,6 +16,14 @@ body {
     background-color: var(--bodyBg);
 }
 
+img{
+    opacity: 0.5;
+}
+
+img[data-high-res]{
+    opacity: 1;
+}
+
 .header {
     display: grid;
     width: 100vw;
@@ -103,7 +111,6 @@ body {
     margin: 3vw;
     border-radius: 10px;
 }
-
 
 .aboutContainer {
     display: grid;
@@ -285,6 +292,7 @@ body {
     justify-content: center;
     margin-left: 6vw;
     margin-right: 6vw;
+    margin-top: 3vw;
 }
 
 .contactFormular {
@@ -598,6 +606,14 @@ body {
         word-wrap: break-word;
         width: 100%;
         font-size: 3vw;
+    }
+
+    .contactTextContainer{
+        display: flex;
+        justify-content: center;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 6vw;
     }
 
     .contactText{
