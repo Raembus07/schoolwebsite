@@ -456,7 +456,7 @@ body {
 
     .aboutContent {
         display: grid;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr 2fr;
     }
 
     .aboutDivTitle {
@@ -521,7 +521,7 @@ body {
 
     .hobbyContent {
         display: grid;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr 2.2fr;
     }
 
     .hobbyDivTitle {
@@ -544,8 +544,6 @@ body {
     }
 
     .hobbyDivText {
-        display: grid;
-
         margin-right: 6vw;
         margin-left: 6vw;
         border-radius: 30px;
