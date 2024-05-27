@@ -16,18 +16,19 @@ body {
     background-color: var(--bodyBg);
 }
 
-img{
+img {
     opacity: 0.5;
 }
 
-img[data-high-res]{
+img[data-high-res] {
     opacity: 1;
 }
 
 .header {
     display: grid;
     width: 100vw;
-    background-color: var(--headerElement); /*Den Hintergrund geändert, weil die Farbkombo mit dem hellen gar nicht zum Rot gepasst hat*/
+    background-color: var(--headerElement);
+    /*Den Hintergrund geändert, weil die Farbkombo mit dem hellen gar nicht zum Rot gepasst hat*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
 }
 
@@ -234,7 +235,7 @@ img[data-high-res]{
 
     margin-top: 10vh;
     margin-bottom: 10vh;
-} 
+}
 
 .imgButtonContainer {
     position: relative;
@@ -352,8 +353,10 @@ img[data-high-res]{
     margin-right: 6vw;
     margin-left: 6vw;
 
-    background-color: var(--headerElement); /*Die Hintergrundfarbe habe ich hier auch geändert, da dass hellgrün nicht zum bg der main-page gepasst hat*/
-    color: white; /*Die Schriftfarbe Weiss ist auf dem Dunkelgrün schöner wie das Schwarz*/
+    background-color: var(--headerElement);
+    /*Die Hintergrundfarbe habe ich hier auch geändert, da dass hellgrün nicht zum bg der main-page gepasst hat*/
+    color: white;
+    /*Die Schriftfarbe Weiss ist auf dem Dunkelgrün schöner wie das Schwarz*/
 }
 
 .footerTitel {
@@ -372,8 +375,8 @@ img[data-high-res]{
         align-items: center;
 
         margin-right: 10px;
-        width: 75px;
-        height: 40px;
+        width: 100px;
+        height: 60px;
 
         color: var(--headerFg);
         font-size: 2vw;
@@ -389,8 +392,8 @@ img[data-high-res]{
 
         margin-right: 10px;
         margin-top: 10px;
-        width: 75px;
-        height: 20px;
+        width: 100px;
+        height: 40px;
 
         color: var(--headerFg);
         font-size: 2vw;
@@ -498,7 +501,7 @@ img[data-high-res]{
 
     .aboutText {
         width: 88vw;
-        font-size: 3vw;
+        font-size: 1rem;
     }
 
     .hobbyContainer {
@@ -562,7 +565,7 @@ img[data-high-res]{
     .hobbyText {
         word-wrap: break-word;
         width: 88vw;
-        font-size: 3vw;
+        font-size: 1rem;
     }
 
     .workContainer {
@@ -584,7 +587,7 @@ img[data-high-res]{
     .learnMoreButton {
         position: absolute;
         top: 82%;
-        left: 45%;
+        left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
 
@@ -605,10 +608,10 @@ img[data-high-res]{
     .workText {
         word-wrap: break-word;
         width: 100%;
-        font-size: 3vw;
+        font-size: 1rem;
     }
 
-    .contactTextContainer{
+    .contactTextContainer {
         display: flex;
         justify-content: center;
         margin-left: 6vw;
@@ -616,8 +619,8 @@ img[data-high-res]{
         margin-top: 6vw;
     }
 
-    .contactText{
-        font-size: 3vw;
+    .contactText {
+        font-size: 1rem;
     }
 
     .nameFormular,
