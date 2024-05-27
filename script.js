@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (entry.isIntersecting) {
                     var lazyImage = entry.target;
                     lazyImage.src = lazyImage.dataset.highRes;
+                    lazyImage.classList.remove("lazy");
                     lazyImageObserver.unobserve(lazyImage);
                 }
             });
@@ -14,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         lazyImages.forEach(function(lazyImage) {
             lazyImageObserver.observe(lazyImage);
+        });
+    } else {
+        lazyImages.forEach(function(lazyImage) {
+            lazyImage.src = lazyImage.dataset.highRes;
+            lazyImage.classList.remove("lazy");
         });
     }
 });
