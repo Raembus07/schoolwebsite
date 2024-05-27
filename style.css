@@ -27,7 +27,7 @@ img[data-high-res]{
 .header {
     display: grid;
     width: 100vw;
-    background-color: var(--headerElement);
+    background-color: var(--headerElement); /*Den Hintergrund geändert, weil die Farbkombo mit dem hellen gar nicht zum Rot gepasst hat*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
 }
 
@@ -352,8 +352,8 @@ img[data-high-res]{
     margin-right: 6vw;
     margin-left: 6vw;
 
-    background-color: var(--headerElement);
-    color: white;
+    background-color: var(--headerElement); /*Die Hintergrundfarbe habe ich hier auch geändert, da dass hellgrün nicht zum bg der main-page gepasst hat*/
+    color: white; /*Die Schriftfarbe Weiss ist auf dem Dunkelgrün schöner wie das Schwarz*/
 }
 
 .footerTitel {
