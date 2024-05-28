@@ -16,14 +16,6 @@ body {
     background-color: var(--bodyBg);
 }
 
-img {
-    opacity: 0.5;
-}
-
-img[data-high-res] {
-    opacity: 1;
-}
-
 .header {
     display: grid;
     width: 100vw;
