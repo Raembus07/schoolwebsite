@@ -375,7 +375,7 @@ img[data-high-res] {
         align-items: center;
 
         margin-right: 10px;
-        width: 100px;
+        width: 120px;
         height: 60px;
 
         color: var(--headerFg);
@@ -392,7 +392,7 @@ img[data-high-res] {
 
         margin-right: 10px;
         margin-top: 10px;
-        width: 100px;
+        width: 120px;
         height: 40px;
 
         color: var(--headerFg);
@@ -532,7 +532,7 @@ img[data-high-res] {
 
     .hobbyContent {
         display: grid;
-        grid-template-rows: 1fr 2.2fr;
+        grid-template-rows: 0.8fr 2.2fr;
     }
 
     .hobbyDivTitle {
