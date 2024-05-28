@@ -467,7 +467,7 @@ img[data-high-res] {
 
     .aboutContent {
         display: grid;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 3fr;
     }
 
     .aboutDivTitle {
