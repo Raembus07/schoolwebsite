@@ -5,6 +5,7 @@
     --headerMomentanElement: #8B2635;
     --bodyBg: #E0E2DB;
     --imageBg: #D2D4C8;
+    --𝘩𝘦𝘢𝘥𝘦𝘳𝘵𝘦𝘹𝘵𝘏𝘰𝘷𝘦𝘳: #858585;
 }
 
 .flex {
@@ -38,6 +39,10 @@ body {
     background-color: var(--headerElement);
     border-radius: 5px;
     text-decoration: none;
+}
+
+.headerItem:hover{
+    color: 𝘷𝘢𝘳(--𝘩𝘦𝘢𝘥𝘦𝘳𝘵𝘦𝘹𝘵𝘏𝘰𝘷𝘦𝘳);
 }
 
 .headerCurrentItem {
