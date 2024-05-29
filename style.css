@@ -5,7 +5,6 @@
     --headerMomentanElement: #8B2635;
     --bodyBg: #E0E2DB;
     --imageBg: #D2D4C8;
-    --𝘩𝘦𝘢𝘥𝘦𝘳𝘵𝘦𝘹𝘵𝘏𝘰𝘷𝘦𝘳: #363636;
 }
 
 .flex {
@@ -42,7 +41,7 @@ body {
 }
 
 .headerItem:hover{
-    𝘰𝘱𝘢𝘤𝘪𝘵𝘺: 0.5;
+    opacity: 0.5;
 }
 
 .headerCurrentItem {
