@@ -204,6 +204,7 @@ iframe {
     justify-content: center;
     align-items: center;
 
+
     margin-top: 5vh;
     margin-right: 6vw;
 
@@ -226,7 +227,7 @@ iframe {
 
 .hobbyText {
     word-wrap: break-word;
-    width: 40.5vw;
+    width: 100%;
 }
 
 .workContainer {
