@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josia's Website | Home</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -14,7 +13,7 @@
         <a class="headerCurrentItem mostLeftItem" href="index.html">Home</a>
         <a id="asdf" class="headerItem" href="aboutme.html">About Me</a>
         <a class="headerItem" href="hobbys.html">Hobbies</a>
-        <a class="headerItem" href="recentWork.html">Recent Work</a>
+        <a class="headerItem" href="recentWork.html">Skills</a>
         <a class="headerItem" href="contact.html">Contact</a>
     </nav>
 
@@ -37,8 +36,11 @@
         </div>
         <div class="imgContainer2">
             <div class="divImg3">
-                <video id="video1" class="img3" src="media/vid/lowqual/pizza.mp4" type="video/mp4" autoplay loop
-                    controls></video>
+                <video id="video1" class="img3" autoplay loop controls>
+                    <source src="media/vid/lowqual/pizza.mp4" type="video/mp4" media="(max-width: 480px)">
+                    <source src="media/vid/medqual/pizza.mp4" type="video/mp4" media="(max-width: 1080px)">
+                    <source src="media/vid/highqual/pizza.mp4" type="video/mp4" media="(min-width: 1081px)">
+                </video>
             </div>
         </div>
 
