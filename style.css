@@ -18,8 +18,8 @@ body {
 }
 
 .header {
-    display: grid;
-    width: 98.958vw;
+    display: grid;  
+    width: auto;
     background-color: var(--headerElement);
     /*Den Hintergrund geändert, weil die Farbkombo mit dem hellen gar nicht zum Rot gepasst hat*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
