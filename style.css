@@ -347,7 +347,7 @@ iframe {
     width: 150px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,7 +366,7 @@ iframe {
     /*Die Schriftfarbe Weiss ist auf dem Dunkelgrün schöner wie das Schwarz*/
 }
 
-.footerTitel {
+footer > p {
     font-size: 3vw;
 }
 
