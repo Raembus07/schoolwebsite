@@ -6,7 +6,7 @@
     --bodyBg: #E0E2DB;
     --imageBg: #D2D4C8;
 }
- 
+
 .flex {
     display: flex;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    display: grid;  
+    display: grid;
     width: auto;
     background-color: var(--headerElement);
     /*Den Hintergrund geändert, weil die Farbkombo mit dem hellen gar nicht zum Rot gepasst hat*/
@@ -70,12 +70,20 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 2.5vw;
-    margin-bottom: 5vw;
+
 }
 
 .imgContainer2 {
     display: flex;
     justify-content: center;
+    margin-top: 2.5vw;
+
+}
+
+.imgContainer3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vw;
 }
 
 .divImg1,
@@ -366,7 +374,7 @@ footer {
     /*Die Schriftfarbe Weiss ist auf dem Dunkelgrün schöner wie das Schwarz*/
 }
 
-footer > p {
+footer>p {
     font-size: 3vw;
 }
 
@@ -417,6 +425,15 @@ footer > p {
         margin-top: 5vw;
         margin-bottom: 5vw;
     }
+
+    .imgContainer2 {
+        margin-bottom: 5vw;
+    }
+
+    .imgContainer3 {
+        margin-bottom: 5vw;
+    }
+
 
     .divImg1 {
         display: flex;
